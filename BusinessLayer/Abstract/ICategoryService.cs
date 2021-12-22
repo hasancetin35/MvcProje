@@ -14,5 +14,11 @@ namespace BusinessLayer.Abstract
 
         void CategoryAddBL(Category category);
 
+        Category GetByID(int id);
+
+
+        void CategoryDeleteBL(Category category);
+
+
     }
 }
