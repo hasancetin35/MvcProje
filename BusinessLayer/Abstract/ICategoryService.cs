@@ -19,6 +19,8 @@ namespace BusinessLayer.Abstract
 
         void CategoryDeleteBL(Category category);
 
+        void CategoryUpdate(Category category);
+
 
     }
 }
